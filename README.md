@@ -8,7 +8,7 @@
 
 2个ssh连接方式:（Use tmate connect ssh步骤内）
 
-方法1:点击：Web shell: https://tmate.io/t/xxx，快捷键ctrl+c即可
+方法1:点击：Web shell: https://tmate.io/t/xxx  快捷键ctrl+c即可
 
 
 方法2:后看到SSH: ssh xxx@xxx.tmate.io
