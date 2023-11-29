@@ -29,6 +29,8 @@ jobs:
       
     - name: Use tmate connect ssh
       uses: mxschmitt/action-tmate@v3.17
+      with:
+        limit-access-to-actor: false  #如果github设置了SSH keys则这里可以输入true使用密钥登录
       if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
             
 
