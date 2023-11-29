@@ -8,6 +8,6 @@
 
 其中xxx.tmate.io为ssh的连接地址,@前面的xxx为用户名，使用putty等工具登录即可
 
-编译程序后把文件移动到up目录,输入exit命令
+编译程序后把文件移动到up目录，输入exit命令
 
 退出ssh后会自动执行后面的任务上传up目录的文件上传到actions完成任务的Artifacts中
