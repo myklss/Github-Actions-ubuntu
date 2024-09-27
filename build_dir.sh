@@ -46,3 +46,10 @@ fi
 # 6. 显示结果
 echo "编译链文件夹已移动到 /mnt 并创建了符号链接"
 ls -l $BUILD_DIR
+
+# 7. 调试信息
+echo "调试信息："
+echo "检查 /mnt/build 目录："
+ls -ld $MOUNT_POINT/build
+echo "检查 /mnt 目录内容："
+ls -l $MOUNT_POINT
