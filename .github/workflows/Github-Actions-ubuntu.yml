@@ -27,7 +27,7 @@ jobs:
     - name: Mount /dev/sdb1 to build
       run: |
         chmod +x build_dir.sh
-        sudo ./build_dir.sh
+        ./build_dir.sh
       
     - name: Create up directory
       run: mkdir up
