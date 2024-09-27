@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# 获取当前工作目录
+CURRENT_DIR=$(pwd)
+
 # 定义编译链文件夹路径
-BUILD_DIR="./build"
+BUILD_DIR="$CURRENT_DIR/build"
 MOUNT_POINT="/mnt"
 
 # 1. 检查是否已挂载 /dev/sdb1 到 /mnt
